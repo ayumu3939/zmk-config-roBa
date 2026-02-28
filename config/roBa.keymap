@@ -6,7 +6,9 @@
 
 #define MOUSE 4 // 各自のマウスレイヤーに合わせて設定
 
-&mkp_input_listener { input-processors = <&zip_temp_layer MOUSE 250>; };
+&mkp_input_listener {
+input-processors = <&zip_temp_layer MOUSE 250>;
+};
 
 &mt {
     flavor = "balanced";
